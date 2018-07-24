@@ -1,0 +1,16 @@
+@import 'variables';
+
+body{
+  background-color: $background-colour;
+  .noOverFlow{
+    overflow-x: hidden;
+  }
+}
+
+@import "logo";
+
+@import "mainNav";
+
+
+@import 'heroimg';
+

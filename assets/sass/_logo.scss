@@ -1,0 +1,12 @@
+@import 'variables';
+
+#logo{
+  img {
+    @media only screen and (min-width: $lg) {
+      position: absolute;
+      top: 37px;
+      left: 1px;
+      z-index: 10000;
+    }
+  }
+}
