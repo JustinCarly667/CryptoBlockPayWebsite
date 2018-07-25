@@ -1,3 +1,4 @@
+@import 'variables';
 
 /* Timeline Section */
 .timeline ul li {
@@ -25,7 +26,7 @@
   bottom: 0;
   width: 400px;
   padding: 15px;
-  background: #337AB7;
+  background: $timeline-box-colour;
 }
 
 .timeline ul li div::before {
@@ -43,7 +44,7 @@
 .timeline ul li:nth-child(odd) div::before {
   left: -15px;
   border-width: 8px 16px 8px 0;
-  border-color: transparent #337AB7 transparent transparent;
+  border-color: transparent $timeline-box-colour transparent transparent;
 }
 .timeline ul li:nth-child(even) div {
   left: -439px;
@@ -52,10 +53,10 @@
 .timeline ul li:nth-child(even) div::before {
   right: -15px;
   border-width: 8px 0 8px 16px;
-  border-color: transparent transparent transparent #337AB7;
+  border-color: transparent transparent transparent $timeline-box-colour;
 }
 .timeline {
-  background-color: #2c363f;
+  background-color: $timeLine-background-Colour;
 }
 .timeline ul li::after {
   background: #fff;
