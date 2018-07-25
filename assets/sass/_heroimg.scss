@@ -1,69 +1,14 @@
-/* 3. Hero Section
---------------------------------- */
-.hero-section-2 .headlines-wrapper .typed-cursor,
-.typed-headline .typed-cursor {
-  opacity: 1;
-  -webkit-animation: blink 0.7s infinite;
-  -moz-animation: blink 0.7s infinite;
-  animation: blink 0.7s infinite;
-  color: #ffffff;
-}
-
-.hero-section-2 .headlines-wrapper .typed-cursor {
-  font-size: 76px;
-  line-height: 76px;
-}
-
-@keyframes blink {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@-webkit-keyframes blink {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@-moz-keyframes blink {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
 .hero-section-2 {
-  height: 100%;
+  height: 800px;
   width: 100%;
   text-align: center;
   margin-top: -100px;
   background: url("../images/hero-dark.jpeg");
   position: relative;
   background-size: cover;
-}
-
-.hero-section-2 #particles-js {
-  margin-top: 0;
-  width: 100%;
-  height: 100vh;
+  @media(min-height:$md){
+    height: 120vh;
+  }
 }
 
 .hero-section-2 .headlines-wrapper {
@@ -72,44 +17,5 @@
   margin-right: auto;
   left: 0;
   right: 0;
-  top: 380px;
-}
-
-.hero-section-2 .skilltechtypetext {
-  color: #ffffff;
-  font-weight: 700;
-  font-size: 76px;
-  line-height: 90px;
-}
-
-.hero-section-2 h3 {
-  line-height: 44px;
-  font-size: 37px;
-  color: #ffffff;
-  font-weight: 400;
-  margin-bottom: 0;
-  position: absolute;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
-}
-
-.hero-section-2 .first-headline {
-  top: 470px;
-}
-
-.hero-section-2 .second-headline {
-  margin-top: 5px;
-  top: 540px;
-}
-
-.hero-section-2 .second-headline span {
-  font-weight: 700;
-}
-
-@media only screen and (max-width: 1200px) {
-  .hero-section-2 #particles-js {
-    height: 100vh;
-  }
+  top: 200px;
 }
