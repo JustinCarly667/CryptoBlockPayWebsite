@@ -1,0 +1,22 @@
+.backgroundBlue{
+  background-color: $specs-background-color;
+  color: $primary-text;
+}
+.card{
+  color: $primary-text;
+  background-color: $cards-background-color;
+  ul{
+    li{
+      background-color: $cards-background-color;
+    }
+  }
+}
+
+.table-compact{
+  @media(max-width:$xs){
+    font-size: 0.7em;
+  }
+  @media(max-width:$xxs){
+    font-size: 0.55em;
+  }
+}

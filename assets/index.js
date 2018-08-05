@@ -3,6 +3,7 @@ import './sass/styles.scss';
 
 import Typed from 'typed.js';
 
+
 const WOW = require('wowjs');
 
 window.wow = new WOW.WOW({
