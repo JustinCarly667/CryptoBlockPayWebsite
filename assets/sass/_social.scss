@@ -1,0 +1,117 @@
+//$radius-size-lg: 75px;
+//$radius-size-md: 50px;
+//$radius-size-sm: 35px;
+//$radius-size-xs: 20px;
+//
+//$radius-size: 70px;
+
+
+
+
+
+
+
+
+
+
+
+
+//
+//
+//
+//
+//.icon {
+//  position:relative;
+//  text-align:center;
+//  width:0px;
+//  height:0px;
+//  font-size: $radius-size-lg;
+//  border-top-right-radius: $radius-size-lg;
+//  border-top-left-radius: $radius-size-lg;
+//  border-bottom-right-radius: $radius-size-lg;
+//  border-bottom-left-radius: $radius-size-lg;
+//  -moz-border-radius: $radius-size-lg $radius-size-lg $radius-size-lg $radius-size-lg;
+//  -webkit-border-radius: $radius-size-lg $radius-size-lg $radius-size-lg $radius-size-lg;
+//  -khtml-border-radius: $radius-size-lg $radius-size-lg $radius-size-lg $radius-size-lg;
+//  color:#FFFFFF;
+//  
+//  @media(max-width:$md){
+//    border-top-right-radius: $radius-size-md;
+//    border-top-left-radius: $radius-size-md;
+//    border-bottom-right-radius: $radius-size-md;
+//    border-bottom-left-radius: $radius-size-md;
+//    -moz-border-radius: $radius-size-md $radius-size-md $radius-size-md $radius-size-md;
+//    -webkit-border-radius: $radius-size-md $radius-size-md $radius-size-md $radius-size-md;
+//    -khtml-border-radius: $radius-size-md $radius-size-md $radius-size-md $radius-size-md;
+//    
+//  }
+//  @media(max-width:$sm){
+//    border-top-right-radius: $radius-size-sm;
+//    border-top-left-radius: $radius-size-sm;
+//    border-bottom-right-radius: $radius-size-sm;
+//    border-bottom-left-radius: $radius-size-sm;
+//    -moz-border-radius: $radius-size-sm $radius-size-sm $radius-size-sm $radius-size-sm;
+//    -webkit-border-radius: $radius-size-sm $radius-size-sm $radius-size-sm $radius-size-sm;
+//    -khtml-border-radius: $radius-size-sm $radius-size-sm $radius-size-sm $radius-size-sm;
+//  }
+//  @media(max-width:$xs){
+//    border-top-right-radius: $radius-size-xs;
+//    border-top-left-radius: $radius-size-xs;
+//    border-bottom-right-radius: $radius-size-xs;
+//    border-bottom-left-radius: $radius-size-xs;
+//    -moz-border-radius: $radius-size-xs $radius-size-xs $radius-size-xs $radius-size-xs;
+//    -webkit-border-radius: $radius-size-xs $radius-size-xs $radius-size-xs $radius-size-xs;
+//    -khtml-border-radius: $radius-size-xs $radius-size-xs $radius-size-xs $radius-size-xs;
+//  }
+//  
+//}
+//.icon i {
+//  font-size: $radius-size-lg;
+//  position:absolute;
+//  left:22%;
+//  top:23%;
+//  
+//  @media(max-width:$md){
+//    font-size: $radius-size-md;
+//  }
+//  @media(max-width:$sm){
+//    font-size: $radius-size-sm;
+//  }
+//  @media(max-width:$xs){
+//    font-size: $radius-size-xs;
+//  }
+//}
+//.icon.social {
+//  float:left;
+//  margin:0 5px 0 0;
+//  cursor:pointer;
+//  background:#6d6e71 ;
+//  color:#262626;
+//  transition: 0.5s;
+//  -moz-transition: 0.5s;
+//  -webkit-transition: 0.5s;
+//  -o-transition: 0.5s;
+//}
+//.icon.social:hover {
+//  background:#262626 ;
+//  color:#6d6e71;
+//  transition: 0.5s;
+//  -moz-transition: 0.5s;
+//  -webkit-transition: 0.5s;
+//  -o-transition: 0.5s;
+//  -webkit-filter:	drop-shadow(0 1px 10px rgba(0,0,0,.8));
+//  -moz-filter: 	drop-shadow(0 1px 10px rgba(0,0,0,.8));
+//  -ms-filter: 		drop-shadow(0 1px 10px rgba(0,0,0,.8));
+//  -o-filter: 		drop-shadow(0 1px 10px rgba(0,0,0,.8));
+//  filter: 			drop-shadow(0 1px 10px rgba(0,0,0,.8));
+//}
+//.icon.social.fb i {
+//  left:13%;
+//  top:10%;
+//}
+//.icon.social.tw i {
+//  left:25%;
+//}
+//.icon.social.in i {
+//  left:11%;
+//}
