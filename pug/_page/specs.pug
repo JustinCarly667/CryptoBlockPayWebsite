@@ -4,8 +4,8 @@
       h1.text-center.wow.slideInRight.text-inverse-primary Specifications
   .row.justify-content-md-center.mx-3
     .col-11.offset-1.mx-auto.card.wow.fadeIn
-      .row
-        .col-md-4.col-11
+      .row.mx-1
+        .col-md-4.col-11.my-auto.py-5.card
           ul.list-group.list-group-flush.text-center
             li.list-group-item
               strong Algorithm:
@@ -24,22 +24,29 @@
               |  10 Blocks
         .col-md-8.col-11
           .row
-            .col-11.offset-1.mx-auto.mb-2
-              h5.pt-3.mt-3.text-center
-                strong Phase 1 (Testing and securing the network)
+            .col-11.offset-1.mx-auto.my-2.card.p-3
+              h2.mt-2.text-center
+                strong Phase 1
+              h5.text-center
+                | (Testing and securing the network)
               h5.text-center
                 strong Block 2 - 500 = 40 CBP per block = 20,000 CBP
-              p.text-center  Approximately 4-5 Days. ( This will phase will be for two Masternodes and for two lucky winners after coin launch...Details to soon follow! )
+              p.text-center 
+                strong Approximately 4-5 Days. ( This will phase will be for two Masternodes and for two lucky winners after coin launch...Details to soon follow! )
           .row
-            .col-11.offset-1.mx-auto.mb-2
-              h5.pt-3.mt-3.text-center
+            .col-11.offset-1.mx-auto.mb-2.card.p-3
+              h2.text-center
+                strong Phase 2
+              h5.text-center
                 strong Phase 2 (ONLY PRIVATE AND PRE SALE BUYERS OF MASTERNODES ALLOWED!)
               h6.text-center
                 strong Block 500 - 2500 = 50 coins per block plus masternode rewards, Approximately 25/30 Days.
           .row
-            .col-11.offset-1.mx-auto.mb-2
+            .col-11.offset-1.mx-auto.mb-2.card.p-3
+              h2.text-center
+                strong Phase 3
               h5.text-center
-                strong Phase 3 PoS Phase(Coin launches at block 2500)
+                strong PoS Phase(Coin launches at block 2500)
               h6.text-center
                 strong Block Rewards,(Please refer to table)
               p.text-center 
@@ -54,62 +61,63 @@
           h5.text-center.py-2
             strong Proof of Stake will automatically be enabled at block 2500.
       .row
-        table.table.table-striped.table-compact.table-responsive-sm.table-sm.mx-4
-          thead
-            tr
-              th(scope="col") Block Height
-              th(scope="col") Reward
-              th(scope="col") Masternodes
-              th(scope="col") POS Stakers
-          tbody
-            tr
-              th(scope="row") 2500-25000
-              td 100 CBP
-              td 70% (70 CBP)
-              td 30% (30 CBP)
-            tr
-              th(scope="row") 25000-120000
-              td 150 CBP
-              td 70% (105 CBP)
-              td 30% (45 CBP)
-            tr
-              th(scope="row") 120000-200000
-              td 170 CBP
-              td 70% (119 CBP)
-              td 30% (51 CBP)
-            tr
-              th(scope="row") 200000-300000 
-              td 200 CBP
-              td 70% (140 CBP)
-              td 30% (60 CBP)
-            tr
-              th(scope="row") 300000-375000
-              td 150 CBP
-              td 70% (105 CBP)
-              td 30% (45 CBP)
-            tr
-              th(scope="row") 375000-425000
-              td 100 CBP
-              td 70% (70 CBP)
-              td 30% (30 CBP)
-            tr
-              th(scope="row") 425000-500000
-              td 75 CBP
-              td 70% (52.5 CBP)
-              td 30% (22.5 CBP)
-            tr
-              th(scope="row") 500000-550000
-              td 50 CBP
-              td 70% (35 CBP)
-              td 30% (15 CBP)
-            
-            tr
-              th(scope="row") 550000-625000
-              td 30 CBP
-              td 70% (21 CBP)
-              td 30% (9 CBP)
-            tr
-              th(scope="row") 625000-Infinity
-              td 25 CBP
-              td 70% (17.5 CBP)
-              td 30% (7.5 CBP)
+        .col-11.offset-1.mx-auto.card
+          table.table.table-striped.table-compact.table-responsive-sm.table-sm.mx-1
+            thead
+              tr
+                th(scope="col") Block Height
+                th(scope="col") Reward
+                th(scope="col") Masternodes
+                th(scope="col") POS Stakers
+            tbody
+              tr
+                th(scope="row") 2500-25000
+                td 100 CBP
+                td 70% (70 CBP)
+                td 30% (30 CBP)
+              tr
+                th(scope="row") 25000-120000
+                td 150 CBP
+                td 70% (105 CBP)
+                td 30% (45 CBP)
+              tr
+                th(scope="row") 120000-200000
+                td 170 CBP
+                td 70% (119 CBP)
+                td 30% (51 CBP)
+              tr
+                th(scope="row") 200000-300000 
+                td 200 CBP
+                td 70% (140 CBP)
+                td 30% (60 CBP)
+              tr
+                th(scope="row") 300000-375000
+                td 150 CBP
+                td 70% (105 CBP)
+                td 30% (45 CBP)
+              tr
+                th(scope="row") 375000-425000
+                td 100 CBP
+                td 70% (70 CBP)
+                td 30% (30 CBP)
+              tr
+                th(scope="row") 425000-500000
+                td 75 CBP
+                td 70% (52.5 CBP)
+                td 30% (22.5 CBP)
+              tr
+                th(scope="row") 500000-550000
+                td 50 CBP
+                td 70% (35 CBP)
+                td 30% (15 CBP)
+              
+              tr
+                th(scope="row") 550000-625000
+                td 30 CBP
+                td 70% (21 CBP)
+                td 30% (9 CBP)
+              tr
+                th(scope="row") 625000-Infinity
+                td 25 CBP
+                td 70% (17.5 CBP)
+                td 30% (7.5 CBP)
