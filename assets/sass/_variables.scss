@@ -44,18 +44,30 @@ $inverse-background-color: $timeLine-background-Colour;
 //$timeline-box-colour: #4776b9;
 
 $timeline-box-colour: #144182;
+//rgb(20,65,130)
 
 
-
-
+//128a08
+//rgb(18,138,8)
 
 /*
 Specifications section
  */
 
-
 $cards-background-color: #f6f4f5;
 
+
+
+/*
+Downloads Section
+ */
+$gradiantStartHex: #144182;
+$gradiantStartRGBA: rgba(20,65,130,1);
+
+$gradiantEndHex: #128a08;
+$gradiantEndRGBA: rgba(18,138,8,1);
+
+$gradiantShadowBoxColor: rgba(30,98,196,1);
 
 
 
