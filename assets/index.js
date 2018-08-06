@@ -15,7 +15,7 @@ window.wow = new WOW.WOW({
 Configure Typed JS
  */
 const typed = new Typed('#typedContent', {
-	strings: ["Masternodes", "Crypto Block Pay", "Some Other String", "Another String to type"],
+	strings: ["Crypto Block Pay", "Zerocoin + Pos 3.0", "Masternode Block Rewards"],
 	typeSpeed: 30,
 	backSpeed: 60,
 	loop: true,
