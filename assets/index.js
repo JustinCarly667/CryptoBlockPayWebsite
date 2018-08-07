@@ -47,6 +47,14 @@ function callbackFunc() {
 			items[i].classList.add("in-view");
 		}
 	}
+	
+	if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		document.getElementById("return-to-top").style.display = "block";
+	} else {
+		document.getElementById("return-to-top").style.display = "none";
+	}
+	
+	
 }
 
 window.addEventListener("load", callbackFunc);
@@ -54,13 +62,5 @@ window.addEventListener("scroll", callbackFunc);
 
 
 window.wow.init();
-
-
-
-
-
-
-
-
 
 
