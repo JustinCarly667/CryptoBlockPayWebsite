@@ -1,5 +1,9 @@
 @import 'variables';
 
+@import '_dependencies/_bootstrap.min.scss';
+@import '_dependencies/_animate.min.scss';
+
+
 body{
   background-color: $background-colour;
   .noOverFlow{
